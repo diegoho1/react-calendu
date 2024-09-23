@@ -1,6 +1,6 @@
 # **React Calendu**
 
-A React library for integrating Calendu booking links directly into your website using multiple embed options like direct embed, floating buttons, inline text, and call-to-action buttons.
+A React library for integrating Calendu booking links directly into your website using multiple embed options like direct embed, floating buttons, inline text, and call-to-action buttons. Easily embed a space, routing form, team booking page, or your personal booking page on your website using Calendu's React components. This allows visitors to book directly from your site without needing to navigate away.
 
 ## **Installation**
 
@@ -39,9 +39,11 @@ The `DirectEmbed` component renders a Calendu booking page directly on your site
 import { DirectEmbed } from "react-calendu";
 
 <DirectEmbed
-  url="https://calendu.com/my-link/interview"
-  styles={{ height: "700px", width: "100%" }}
+  url="https://calendu.com/my-company/interview"
+  styles={{ height: "700px", width: "100%", maxWidth: "1050px" }}
 />;
+
+**Note**: Replace `"https://calendu.com/my-company/interview"` with your actual Calendu booking link.
 ```
 
 ### **Call to Action Button**
@@ -66,10 +68,11 @@ A button that opens the Calendu scheduling modal when clicked.
 import { CallToActionButton } from "react-calendu";
 
 <CallToActionButton
-  url="https://calendu.com/my-link/interview"
+  url="https://calendu.com/mycompany/interview"
   buttonText="Book a meeting"
-  styles={{ backgroundColor: "#6351d9" }}
 />;
+
+**Note**: Replace `"https://calendu.com/my-company/interview"` with your actual Calendu booking link.
 ```
 
 ### **Inline Text**
@@ -94,9 +97,11 @@ A clickable text that opens a modal when clicked. The modal contains the Calendu
 import { InlineText } from "react-calendu";
 
 <InlineText
-  url="https://calendu.com/my-link/interview"
+  url="https://calendu.com/my-company/interview"
   text="Click here to book a meeting"
 />;
+
+**Note**: Replace `"https://calendu.com/my-company/interview"` with your actual Calendu booking link.
 ```
 
 ### **Floating Button**
@@ -122,10 +127,11 @@ A floating button that stays in the bottom right corner of the site and opens th
 import { FloatingButton } from "react-calendu";
 
 <FloatingButton
-  url="https://calendu.com/my-link/interview"
+  url="https://calendu.com/my-company/interview"
   buttonText="Schedule"
-  styles={{ backgroundColor: "#6351d9" }}
 />;
+
+**Note**: Replace `"https://calendu.com/my-company/interview"` with your actual Calendu booking link.
 ```
 
 ## **Prop Details**
