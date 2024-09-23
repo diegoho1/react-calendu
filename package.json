@@ -1,6 +1,6 @@
 {
   "name": "react-calendu",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React component to integrate Calendu boooking links in you app",
   "main": "dist/bundle.js",
   "types": "index.d.ts",
