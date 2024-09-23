@@ -1,6 +1,6 @@
-# REACT C DU BETA
+# REACT CALENDU
 
-Library to integrate links, this is just a beta mode.
+React library to integrate Calendu boooking links.
 
 ## Installation
 
